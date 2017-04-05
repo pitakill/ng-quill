@@ -1,9 +1,9 @@
 {
-  "name": "ng-quill",
-  "version": "3.1.0",
+  "name": "ng-quill-cuco",
+  "version": "3.1.0-1",
   "description": "Angular directive for rich text editor Quill",
   "author": "Bengt Weiße <bengtler@gmail.com>",
-  "homepage": "https://github.com/KillerCodeMonkey/ngQuill",
+  "homepage": "https://github.com/pitakill/ngQuill",
   "main": "dist/ng-quill.js",
   "devDependencies": {
     "angular-mocks": "^1.5.3",
@@ -19,7 +19,7 @@
     "node": ">=0.10"
   },
   "dependencies": {
-    "quill": "^1.2.0",
+    "quill-cuco": "^1.2.3-2",
     "angular": "^1.5.3"
   },
   "scripts": {
@@ -29,10 +29,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KillerCodeMonkey/ngQuill"
+    "url": "https://github.com/pitakill/ngQuill"
   },
   "bugs": {
-    "url": "https://github.com/KillerCodeMonkey/ngQuill/issues"
+    "url": "https://github.com/pitakill/ngQuill/issues"
   },
   "keywords": [
     "editor",
@@ -43,7 +43,8 @@
   ],
   "contributors": [
     {
-      "name": "Bengt Weiße"
+      "name": "Bengt Weiße",
+      "name": "Leopoldo Caballero"
     }
   ]
 }
