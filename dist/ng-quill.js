@@ -1,8 +1,8 @@
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
-    define(['quill'], factory)
+    define(['quill-cuco'], factory)
   } else if (typeof exports === 'object') {
-    module.exports = factory(require('quill'))
+    module.exports = factory(require('quill-cuco'))
   } else {
     root.Requester = factory(root.Quill)
   }
