@@ -35,10 +35,11 @@
 
           ['clean'],                                         // remove formatting button
 
-          ['link', 'image', 'video']                         // link and image, video
+          ['link', 'image', 'video'],                        // link and image, video
+          ['tweet']                                          // link and image, video
         ]
       },
-      theme: 'snow',
+      theme: 'cuco',
       placeholder: 'Insert text here ...',
       readOnly: false,
       bounds: document.body
